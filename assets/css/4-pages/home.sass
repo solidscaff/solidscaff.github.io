@@ -1,0 +1,138 @@
+.background
+  background-image: url(../img/richard_background.jpg)
+  height: 1.3 * 640px
+  width: 1.5 * 854px
+  background-size: cover
+  text-align: center
+  position: relative
+  .header
+    h1
+      color: white
+      text-align: center
+      font-size: 9rem
+      margin: 0
+      padding: 6rem 0 0 0
+    h2
+      color: white
+      text-align: center
+      font-size: 6rem
+      margin: 0
+      padding: 0
+  .text
+    //background-color: red
+    .container
+      width: 950px
+
+
+      //background-color: yellow
+      margin: 0 0 0 150px
+      position: relative
+    h2
+      color: black
+      font-size: 2.8rem
+      line-height: 4rem
+
+
+    #op
+      text-align: left
+
+    #tss
+      text-align: right
+      top: 0
+      right: 0
+      position: absolute
+#RJ
+  position: absolute
+  top: 360px
+  left: 70px
+  font-size: 2rem
+#ME
+  position: absolute
+  top: 320px
+  left: 880px
+  font-size: 2.1rem
+  text-align: left
+#E
+  position: absolute
+  top: 360px
+  left: 900px
+  font-size: 2rem
+  text-align: left
+  a
+    text-decoration: none
+    color: black
+    &:hover
+      color:black
+    &:focus
+      color: black
+#G
+  position: absolute
+  top: 463px
+  left: 230px
+  font-size: 3rem
+  a
+    color: #B29600
+    text-decoration: none
+    &:hover
+      color: #A08700
+.image-container
+  height: 100%
+  width: 100%
+  text-align: center
+  .image
+    height: 100%
+    width: 100%
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+    position: relative
+    &:nth-of-type(1)
+      background-image: url(../img/1.jpg)
+    &:nth-of-type(2)
+      background-image: url(../img/2.jpg)
+    &:nth-of-type(3)
+      background-image: url(../img/3.jpg)
+    &:nth-of-type(4)
+      background-image: url(../img/4.jpg)
+    &:nth-of-type(5)
+      background-image: url(../img/5.jpg)
+    &:nth-of-type(6)
+      background-image: url(../img/6.jpg)
+    &:nth-of-type(7)
+      background-image: url(../img/7.jpg)
+    &:nth-of-type(8)
+      background-image: url(../img/8.jpg)
+    &:nth-of-type(9)
+      background-image: url(../img/9.jpg)
+    &:nth-of-type(10)
+      background-image: url(../img/10.jpg)
+    &:nth-of-type(11)
+      background-image: url(../img/11.jpg)
+    &:nth-of-type(12)
+      background-image: url(../img/12.jpg)
+    .scrollcontainer
+      position: absolute
+      bottom: 5%
+      left: 50%
+      transform: translateX(-50%)
+      p
+        font-size: 3rem
+        color: white
+        margin-bottom: 1rem
+      svg
+        animation-name: pfeil
+        animation-duration: 1s
+        animation-timing-function: ease-in-out
+        animation-iteration-count: infinite
+        animation-direction: alternate
+@keyframes pfeil
+  from
+    transform: translateY(0)
+  to
+    transform: translateY(50%)
+#arrowleft
+  position: fixed
+  margin: 3rem
+  top: 0
+  left: 0
+  z-index: 100
